@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Login.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!--box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Login Final Project</title>
+  </head>
+  <body>
+    <div class="login">
+      <div class="form">
+        <div class="title">Login</div>
+      <form name="loginForm" onsubmit="return validateForm(event) ">
+        <label for="Name">Enter Your Name:</label>
+        <input type="text" name="name" placeholder="example@example.com" class="name" />
+        <label for="password" class="pass">Enter Your Password:</label> 
+        <div class="pass">
+          <input type="password" class="inp" name="password" placeholder="*********"></input>
+        </div>  
+        <button type="submit" class="log">Login</button>
+        <button type="reset" class="cancel">cancel</button>
+      </form> 
+      <div>
+      <p class="para">or Connect with Social Media</p></div>
+      <div class="facebook">
+      <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i>Login With Facebook</a>
+      </div>
+      <div class="twitter">
+      <a href="https://twitter.com/?lang=en"><i class='bx bxl-twitter'></i>Login With Twitter</a>
+        </div>
+      </div>
+
+    </div>
+    
+    <script src="./javascript.js"></script>
+  </body>
+</html>

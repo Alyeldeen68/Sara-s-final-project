@@ -1,0 +1,111 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  /* background-color: rgb(219, 94, 140); */
+}
+.form {
+  background-color: #fff;
+  max-width: 350px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2%;
+  height: 100%;
+  width: 100%;
+}
+.pass {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2%;
+}
+.inp {
+  margin-bottom: 2%;
+  height: 100%;
+  width: 100%;
+}
+.log {
+  display: block;
+  width: 100%;
+  height: 40px;
+  /* height: 100%;
+  width: 100%; */
+  color: #fff;
+  border: none;
+  border: #fff;
+  outline: none;
+  font-size: 17px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  transition: all 0.3s ease;
+}
+.log:hover {
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+}
+.cancel {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 2%;
+  /* height: 100%;
+  width: 100%; */
+  color: #fff;
+  border: none;
+  border: #fff;
+  outline: none;
+  font-size: 17px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  transition: all 0.3s ease;
+}
+.cancel:hover {
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+}
+.para {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+.facebook a,
+.twitter a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  text-decoration: none;
+  padding-left: 20px;
+  color: #fff;
+  line-height: 45px;
+}
+.facebook i,
+.twitter i {
+  padding-right: 12px;
+  font-size: 20px;
+}
+
+.facebook {
+  border-radius: 10px;
+  margin: 20px 0 15px 0;
+  background: linear-gradient(to left, #d2ddf3 0%, #476bb8 100%);
+}
+.twitter {
+  border-radius: 10px;
+  margin: 20px 0 50px 0;
+  background: linear-gradient(to right, #00acee 0%, #bbe4f5 100%);
+}
